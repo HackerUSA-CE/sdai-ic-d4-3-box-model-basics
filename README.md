@@ -2,25 +2,49 @@
 
 ---
 
-# Together - Editing Box Model Properties 📖
+# Solo - Creating Your Own Card and Button 💪
 
 **Description:**
-Students will practice editing the box model properties of button and card examples alongside the instructor with step-by-step guidance. This includes modifying padding, margins, and borders on pre-made classes, and inspecting the changes using the Chrome Inspector tool.
+You will independently apply your skills by creating their own card and button that seamlessly fit into the existing examples. This exercise reinforces your understanding of the CSS box model and your ability to design consistent, styled elements.
 
 ## ToDo list ✅
 
-1. [ ] **Task 1:** Follow along with the instructor to modify the box model properties of the button example.
-    - **Subtask 1:** Open `examples/button/button.html` and `examples/button/styles.css` in your code editor. View `button.html` in your web browser. Refresh the page to immediately see any changes as you make them.
-    - **Subtask 2:** Increase the padding of the buttons to `1em 1.5em`. Refresh the page to see the effects.
-    - **Subtask 3:** Set a margin of `1em` around each button. Refresh the page to see the effects.
-    - **Subtask 4:** Set a border of `0.2em solid #333` (or a different size and color of your choice) on the buttons. Refresh the page to see the effects.
+1. [ ] **Task 1:** Independently create your own button that fits into the existing button example.
+    - **Subtask 1:** Open `examples/button/button.html` and `examples/button/styles.css` in your code editor. View `button.html` in your web browser.
+    - **Subtask 2:** Add a new button in the `button.html` file with a class of `btn btn-style-3`.
+    - **Subtask 3:** In `styles.css`, define the `.btn-style-3` class with the following properties:
+        - Padding: `1em 2em`
+        - Margin: `0.5em`
+        - Border: `0.25em solid #28a745`
+        - Background color: `#28a745`
+        - Color: `#fff`
+        - Border-radius: `0.5em`
+    - **Subtask 4:** Save your changes and refresh the page to see the new button.
     - **Subtask 5:** Use the Chrome Inspector tool to verify the changes and inspect the computed styles.
 
-2. [ ] **Task 2:** Follow along with the instructor to modify the box model properties of the card example.
-    - **Subtask 1:** Open `examples/card/cards.html` and `examples/card/styles.css` in your code editor. View `cards.html` in your web browser. Refresh the page to immediately see any changes as you make them.
-    - **Subtask 2:** Increase the padding of the cards to `1.5em`. Refresh the page to see the effects.
-    - **Subtask 3:** Add a margin of `1.5em` around each card. Refresh the page to see the effects.
-    - **Subtask 4:** Set a border of `0.15em solid #555` (or a different size and color of your choice) to the cards. Refresh the page to see the effects.
+2. [ ] **Task 2:** Independently create your own card that fits into the existing card example.
+    - **Subtask 1:** Open `examples/card/cards.html` and `examples/card/styles.css` in your code editor. View `cards.html` in your web browser.
+    - **Subtask 2:** Add a new card in the `cards.html` file with the same structure as the existing cards:
+        ```html
+        <div class="card">
+            <img src="assets/images/your-image.jpg" alt="Your Image Description"/>
+            <h3>Your Card Title</h3>
+            <p class="card-number">Card 4.</p>
+            <p>Your card description goes here.</p>
+            <p class="price">$19.99</p>
+        </div>
+        ```
+    - **Subtask 3:** In `styles.css`, define the styles for the card if needed. Use similar properties to the existing card styles:
+        - Padding: `1.5em`
+        - Margin: `1em`
+        - Border: `0.3em solid #007bff`
+        - Background color: `#f8f9fa`
+        - Color: `#333`
+    - **Subtask 4:** Save your changes and refresh the page to see the new card.
     - **Subtask 5:** Use the Chrome Inspector tool to verify the changes and inspect the computed styles.
 
-🎉 **Great job! You just practiced editing box model properties and inspecting changes with your instructor.** 🎉
+🌟 **Awesome work! You just created your own card and button that seamlessly fit into the existing examples.** 🌟
+
+## Additional Resources
+- [MDN Web Docs - CSS Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
