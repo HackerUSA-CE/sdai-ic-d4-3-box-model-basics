@@ -2,26 +2,25 @@
 
 ---
 
-# Demo - Using Chrome Inspector to Explore CSS 🎥
+# Together - Editing Box Model Properties 📖
 
 **Description:**
-The instructor will demonstrate how to use the Chrome Inspector tool to understand CSS properties applied to web elements. This will include opening the Inspector tool, navigating to the Computed tab, and analyzing the styles of buttons and card elements.
-
-
-## Box Model Playground
-Accessible from index.html, you can adjust values in the tool to see how they affect a group of elements. This is where you'll carry out your demo.
-
-## Examples
-The card and button examples will be used in the together and solo exercises.
+Students will practice editing the box model properties of button and card examples alongside the instructor with step-by-step guidance. This includes modifying padding, margins, and borders on pre-made classes, and inspecting the changes using the Chrome Inspector tool.
 
 ## ToDo list ✅
 
-1. **Introduction:** The instructor will introduce the Chrome Inspector tool and its importance for web developers.
-2. **Step-by-Step Walkthrough:**
-    - **Task 1:** Open the box model playground located in `index.html` and briefly demonstrate how it works.
-    - **Task 2:** Show how to navigate to and use the Computed tab.
-        - **Subtask 1:** Click on the “Computed” tab in the Chrome DevTools panel.
-        - **Subtask 2:** Select one of the adjustable elements in the HTML.
-        - **Subtask 3:** Examine the padding, borders, and background color in the Computed tab.
-    - **Task 3:** Demonstrate how the values of the selected element change when making adjustments to the tool.
-3. **Q&A:** Ask questions and get clarifications on the demonstrated skill/task.
+1. [ ] **Task 1:** Follow along with the instructor to modify the box model properties of the button example.
+    - **Subtask 1:** Open `examples/button/button.html` and `examples/button/styles.css` in your code editor. View `button.html` in your web browser. Refresh the page to immediately see any changes as you make them.
+    - **Subtask 2:** Increase the padding of the buttons to `1em 1.5em`. Refresh the page to see the effects.
+    - **Subtask 3:** Set a margin of `1em` around each button. Refresh the page to see the effects.
+    - **Subtask 4:** Set a border of `0.2em solid #333` (or a different size and color of your choice) on the buttons. Refresh the page to see the effects.
+    - **Subtask 5:** Use the Chrome Inspector tool to verify the changes and inspect the computed styles.
+
+2. [ ] **Task 2:** Follow along with the instructor to modify the box model properties of the card example.
+    - **Subtask 1:** Open `examples/card/cards.html` and `examples/card/styles.css` in your code editor. View `cards.html` in your web browser. Refresh the page to immediately see any changes as you make them.
+    - **Subtask 2:** Increase the padding of the cards to `1.5em`. Refresh the page to see the effects.
+    - **Subtask 3:** Add a margin of `1.5em` around each card. Refresh the page to see the effects.
+    - **Subtask 4:** Set a border of `0.15em solid #555` (or a different size and color of your choice) to the cards. Refresh the page to see the effects.
+    - **Subtask 5:** Use the Chrome Inspector tool to verify the changes and inspect the computed styles.
+
+🎉 **Great job! You just practiced editing box model properties and inspecting changes with your instructor.** 🎉
