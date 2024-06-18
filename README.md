@@ -23,4 +23,6 @@ Students will practice editing the box model properties of button and card examp
     - **Subtask 4:** Set a border of `0.15em solid #555` (or a different size and color of your choice) to the cards. Refresh the page to see the effects.
     - **Subtask 5:** Use the Chrome Inspector tool to verify the changes and inspect the computed styles.
 
+**Remember**: To get to the `solo` activity, use the terminal command `git checkout solo`.
+
 🎉 **Great job! You just practiced editing box model properties and inspecting changes with your instructor.** 🎉
