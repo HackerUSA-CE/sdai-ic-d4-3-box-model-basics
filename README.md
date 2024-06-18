@@ -27,14 +27,14 @@ You will independently apply your skills by creating their own card and button t
     - **Subtask 2:** Add a new card in the `cards.html` file with the same structure as the existing cards:
         ```html
         <div class="card">
-            <img src="assets/images/your-image.jpg" alt="Your Image Description"/>
-            <h3>Your Card Title</h3>
+            <img src="assets/images/breakfast-of-champions.jpg" alt="Your Image Description"/>
+            <h3>Breakfast of Champions</h3>
             <p class="card-number">Card 4.</p>
             <p>Your card description goes here.</p>
-            <p class="price">$19.99</p>
+            <p class="price">$16.99</p>
         </div>
         ```
-    - **Subtask 3:** In `styles.css`, define the styles for the card if needed. Use similar properties to the existing card styles:
+    - **Subtask 3:** In `styles.css`, define a new style for that specific card by adding a `card-special` class to your css and then adding the `.card-special` class to your card's div. Use similar properties to the existing card styles:
         - Padding: `1.5em`
         - Margin: `1em`
         - Border: `0.3em solid #007bff`
